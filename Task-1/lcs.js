@@ -1,0 +1,1 @@
+[,,r="",...a]=process.argv;s="";for(l=r.length;l>0&&!s;l--)for(i=0;i<=r.length-l;i++)if(t=r.substr(i,l),a.every(x=>x.includes(t)))s=t;console.log(s)
